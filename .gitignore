@@ -1,0 +1,38 @@
+# Environment variables & secrets (CRITICAL: Do NOT remove)
+.env
+.env.*
+!.env.example
+*.env
+
+# Vector Database and Ingested Data storage
+data/
+data/chroma_db/
+data/faiss_index/
+data/documents/
+*.sqlite3
+*.faiss
+*.pkl
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Testing & Caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
